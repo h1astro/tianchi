@@ -133,6 +133,8 @@ for i in range(len(train_mask)):
     if train_mask["mask"].iloc[i]=="":
         count+=1
 print("没有任何建筑物像素的图片有{:d}张,占比{:.3f}%".format(count,100*count/len(train_mask)))
+# output
+# 没有任何建筑物像素的图片有5204张,占比17.347%
 ```
 
 3. 统计所有图片中建筑物像素占所有像素的比例；
@@ -142,3 +144,8 @@ print("没有任何建筑物像素的图片有{:d}张,占比{:.3f}%".format(coun
 ```
 
 4. 统计所有图片中建筑物区域平均区域大小；
+
+```python
+
+```
+
